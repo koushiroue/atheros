@@ -11,3 +11,7 @@ Homemade  Foobar (1.6.7) Skin
 - Restart, Choose Column UI and enable theming.  
 
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
+
+## Troubleshooting  
+
+- Does not works properly well on Display scale 125% and 150%, may require changing hidpi setting on foobar properties.  
