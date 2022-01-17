@@ -5,7 +5,7 @@ Homemade  Foobar (1.6.7) Skin
 ## Prerequisite
 
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
-- [Spider Monkey Panel >= (1.3.1)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel")
+- [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel")
 - [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
 - [OpenLyrics](https://github.com/jacquesh/foo_openlyrics)
 - [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_ "foo_musical_spectrum")

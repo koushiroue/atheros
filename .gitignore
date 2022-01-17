@@ -1,1 +1,3 @@
-release.7z
+*.7z
+*.zip
+*.fcl
