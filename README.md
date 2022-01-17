@@ -1,6 +1,6 @@
 # Atheros  
 
-Homemade  Foobar (1.6.7) Skin  
+Homemade Foobar Skin  
 
 ## Prerequisite
 
@@ -31,3 +31,7 @@ List of Included Spider Monkey Panel Scripts :
 
 - Prefer Portable vertion of Foobar2000
 - Does not works  well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
+
+## Changelog
+
+- Atheros `v 1.0.0` - Columns UI `v 1.6.0` + Spider Monkey Panel `v 1.3.1`
