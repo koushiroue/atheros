@@ -11,7 +11,7 @@ Homemade Foobar Skin
 - [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_ "foo_musical_spectrum")
 - UI Hacks
 - Panel Stack Splitter
-- Youtbe Component (Optional)
+- Youtbe Component (Optional) - [Website](http://fy.3dyd.com/ "Proprietary")
 
 ## Scripts
 
@@ -32,6 +32,7 @@ List of Included Spider Monkey Panel Scripts :
 - Prefer Portable vertion of Foobar2000
 - Does not works  well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
 ![alt text](../main/etc/hidpi.png "Foobar.exe Properties > Compatibility > Change HiDPI Settings")
+*note : The skin might not fit in 150% display scale for 1080p resolution or lower.*  
 
 ## Changelog
 
