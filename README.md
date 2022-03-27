@@ -35,6 +35,9 @@ List of Included Spider Monkey Panel Scripts :
 
 *note : The skin might not fit in 150% display scale for 1080p resolution or lower.*  
 
+- Alternatively you can refer the "minimum" window size here  
+![alt text](../main/etc/window.png "Preference > Display > Main Window (UI Hacks)")
+
 ## Changelog
 
 - Atheros `v 1.0.0` - Columns UI `v 1.6.0` + Spider Monkey Panel `v 1.3.1`
