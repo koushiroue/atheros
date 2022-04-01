@@ -24,7 +24,8 @@ List of Included Spider Monkey Panel Scripts :
 
 - Extract ``release.7z`` and copy ``Atheros`` folder inside ``\foobar2000\themes``.
 - Install Required Component from Prerequisite or Drag all files from ``components`` folder into foobar component preferences setting.
-- Restart, Choose Column UI and enable theming.
+- Restart, Choose Column UI and enable theming.  
+- Install `.zip` Script by using Spider Monkey Package Manager (TBA)
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
 
 ## Troubleshooting  
@@ -39,6 +40,7 @@ List of Included Spider Monkey Panel Scripts :
 ![alt text](../main/etc/window.png "Preference > Display > Main Window (UI Hacks)")
 
 *warning : changing the maximum window too low will crash the Spider monkey JS Panel.*
+
 ## Changelog
 
 - Atheros `v 1.1`
