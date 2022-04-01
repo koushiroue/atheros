@@ -11,7 +11,7 @@ Homemade Foobar Skin
 - [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_ "foo_musical_spectrum")
 - UI Hacks
 - Panel Stack Splitter
-- Youtbe Component (Optional) - [Website](http://fy.3dyd.com/ "Proprietary")
+- Youtube Component (Optional) - [Website](http://fy.3dyd.com/ "Proprietary")
 
 ## Scripts
 
