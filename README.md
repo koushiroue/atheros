@@ -38,6 +38,7 @@ List of Included Spider Monkey Panel Scripts :
 - Alternatively you can refer the "minimum" window size here  
 ![alt text](../main/etc/window.png "Preference > Display > Main Window (UI Hacks)")
 
+*warning : changing the maximum window too low will crash the Spider monkey JS Panel.*
 ## Changelog
 
 - Atheros `v 1.1`
