@@ -23,13 +23,13 @@ List of Included Spider Monkey Panel Scripts :
 ## Installation  
 
 - Extract ``release.7z`` and copy ``Atheros`` folder inside ``\foobar2000\themes``.
-- Drag all files from ``components`` folder into foobar component preferences setting.
+- Install Required Component from Prerequisite or Drag all files from ``components`` folder into foobar component preferences setting.
 - Restart, Choose Column UI and enable theming.
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
 
 ## Troubleshooting  
 
-- Prefer Portable vertion of Foobar2000
+- Prefer Portable version of Foobar2000
 - Does not works  well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
 ![alt text](../main/etc/hidpi.png "Foobar.exe Properties > Compatibility > Change HiDPI Settings")  
 
@@ -40,4 +40,10 @@ List of Included Spider Monkey Panel Scripts :
 
 ## Changelog
 
-- Atheros `v 1.0.0` - Columns UI `v 1.6.0` + Spider Monkey Panel `v 1.3.1`
+- Atheros `v 1.1`
+  - Columns UI `v 1.7.0`  
+  - Spider Monkey Panel `v 1.6.1`  
+
+- Atheros `v 1.0`  
+  - Columns UI `v 1.6.0`
+  - Spider Monkey Panel `v 1.3.1`
