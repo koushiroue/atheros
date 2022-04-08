@@ -4,14 +4,23 @@ Homemade Foobar Skin
 
 ## Prerequisite
 
+### Foobar Component  
+
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
 - [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel")
 - [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
+- [EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")
 - [OpenLyrics](https://github.com/jacquesh/foo_openlyrics)
 - [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_ "foo_musical_spectrum")
 - UI Hacks
 - Panel Stack Splitter
 - Youtube Component (Optional) - [Website](http://fy.3dyd.com/ "Proprietary")
+
+### Library Component  
+
+- `ffmpeg`  
+- `youtube-dl`  
+- `madvr` Can installed by `scoop install madvr`  
 
 ## Scripts
 
