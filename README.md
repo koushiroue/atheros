@@ -1,9 +1,9 @@
 # Atheros  
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/29189359/165435326-c5e0e74a-44c3-48e4-8cd0-73a0dfd7fc01.png" width="320">
+<img src="https://user-images.githubusercontent.com/29189359/165435326-c5e0e74a-44c3-48e4-8cd0-73a0dfd7fc01.png" width="480">
 
-<img src="https://user-images.githubusercontent.com/29189359/165435377-28df718a-4731-4cde-81e6-4a9bbb8b4f7b.png" width="320">
+<img src="https://user-images.githubusercontent.com/29189359/165435377-28df718a-4731-4cde-81e6-4a9bbb8b4f7b.png" width="480">
 </p>
 
 Homemade Foobar Skin  
