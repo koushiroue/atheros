@@ -37,7 +37,7 @@ List of Required Spider Monkey Panel Scripts :
 ## Troubleshooting  
 
 - Prefer Portable version of Foobar2000
-- Does not works  well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
+- Does not work well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
 ![alt text](../main/etc/hidpi.png "Foobar.exe Properties > Compatibility > Change HiDPI Settings")  
 
 *note : The skin might not fit in 150% display scale for 1080p resolution or lower.*  
