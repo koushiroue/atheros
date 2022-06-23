@@ -12,19 +12,13 @@
 
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
 - [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel")
+  - [Library Tree](https://github.com/Wil-B/Library-Tree)
 - [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
-- ~~[EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")~~
 - [OpenLyrics](https://github.com/jacquesh/foo_openlyrics)
 - [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum))
 - UI Hacks
+- ~~[EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")~~
 - ~~Panel Stack Splitter~~
-
-
-## Scripts
-
-List of Required Spider Monkey Panel Scripts :
-
-- [Library Tree](https://github.com/Wil-B/Library-Tree)
 
 ## Installation  
 
@@ -32,12 +26,18 @@ List of Required Spider Monkey Panel Scripts :
 - Install Required Component from Prerequisite or Drag all files from ``components`` folder into foobar component preferences setting.
 - Restart, Choose Column UI and enable theming.  
 - Install `.zip` Script by using Spider Monkey Package Manager (TBA)
+  - Right Click into Blank Spider Monkey Panel and select Configure Panel or;
+    ![alt text](../main/etc/script.png)
+  - Preferences > Layout > Spider Monkey Panel > Configure Panel
+    ![alt text](../main/etc/SMP.png)
+    - Select [] Package > Package Manager > Import > Select `.zip` script.
+      ![alt text](../main/etc/SMP-packman.png)
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
 
 ## Troubleshooting  
 
-- Prefer Portable version of Foobar2000
-- Does not work well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
+- Portable version of Foobar2000 is recommended.
+- May not work well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
 ![alt text](../main/etc/hidpi.png "Foobar.exe Properties > Compatibility > Change HiDPI Settings")  
 
 *note : The skin might not fit in 150% display scale for 1080p resolution or lower.*  
