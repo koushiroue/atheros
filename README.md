@@ -23,16 +23,15 @@
 ## Installation  
 
 - Extract ``release.7z`` and copy ``Atheros`` folder inside ``\foobar2000\themes``.
-- Install Required Component from Prerequisite or Drag all files from ``components`` folder into foobar component preferences setting.
+- Install Required Component from [Prerequisite](https://github.com/koushiroue/atheros#prerequisite) or Drag all files from ``components`` folder into foobar component preferences setting.
 - Restart, Choose Column UI and enable theming.  
 - Install `.zip` Script by using Spider Monkey Package Manager (TBA)
   - Right Click into Blank Spider Monkey Panel and select Configure Panel or;
-    <img src="../main/etc/script.png">
+    <img src="../main/etc/script.png" width="480">
   - Preferences > Layout > Spider Monkey Panel > Configure Panel  
-
-    <img src="../main/etc/SMP.png" width="320">  
+    <img src="../main/etc/SMP.png" width="480">  
   - Select Package > Package Manager > Import > Select `.zip` script.
-    <img src="../main/etc/SMP-packman.png" width="240">
+    <img src="../main/etc/SMP-packman.png" width="320">
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
 
 ## Troubleshooting  
