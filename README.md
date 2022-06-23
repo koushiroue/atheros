@@ -27,11 +27,11 @@
 - Restart, Choose Column UI and enable theming.  
 - Install `.zip` Script by using Spider Monkey Package Manager (TBA)
   - Right Click into Blank Spider Monkey Panel and select Configure Panel or;
-    ![alt text](../main/etc/script.png)
+    <img src="../main/etc/Script.png" width="480">
   - Preferences > Layout > Spider Monkey Panel > Configure Panel
-    ![alt text](../main/etc/SMP.png)
+    <img src="../main/etc/SMP.png" width="480">
     - Select [] Package > Package Manager > Import > Select `.zip` script.
-      ![alt text](../main/etc/SMP-packman.png)
+      <img src="../main/etc/SMP-packman.png" width="480">
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
 
 ## Troubleshooting  
