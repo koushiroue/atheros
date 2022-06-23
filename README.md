@@ -28,7 +28,8 @@
 - Install `.zip` Script by using Spider Monkey Package Manager (TBA)
   - Right Click into Blank Spider Monkey Panel and select Configure Panel or;
     <img src="../main/etc/script.png">
-  - Preferences > Layout > Spider Monkey Panel > Configure Panel
+  - Preferences > Layout > Spider Monkey Panel > Configure Panel  
+  
     <img src="../main/etc/SMP.png" width="240">
     - Select Package > Package Manager > Import > Select `.zip` script.
       <img src="../main/etc/SMP-packman.png" width="240">
