@@ -4,7 +4,10 @@
 <img src="https://user-images.githubusercontent.com/29189359/173229700-826c8d8a-9f00-4e71-9963-e3f7c064e9a3.png" width="360">
 </p>
 
-<p align=center> Foobar Compact ColumnUI Theme </p>
+<p align=center> Foobar Simple Compact ColumnUI Theme </p>
+
+This is just a self-made Foobar2000 Theme.
+V1.1 and onward uses Built-in ColumnUI Playlist View.
 
 ## Prerequisite
 
@@ -13,12 +16,16 @@
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
 - [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel")
   - [Library Tree](https://github.com/Wil-B/Library-Tree)
+- ~~[EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")~~
+- ~~Panel Stack Splitter~~
+
+#### Optional
+
 - [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
 - [OpenLyrics](https://github.com/jacquesh/foo_openlyrics)
 - [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum))
 - UI Hacks
-- ~~[EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")~~
-- ~~Panel Stack Splitter~~
+
 
 ## Installation  
 
