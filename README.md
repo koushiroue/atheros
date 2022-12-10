@@ -14,7 +14,8 @@ V1.1 and onward uses Built-in ColumnUI Playlist View.
 ### Foobar Component  
 
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
-- [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel")
+- [Album List Panel (Columns UI panel version of album list)](https://github.com/reupen/album_list_panel "foo_uie_albumlist")
+- [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel") `not ready for v2`
   - [Library Tree](https://github.com/Wil-B/Library-Tree)
 - ~~[EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")~~
 - ~~Panel Stack Splitter~~
@@ -22,10 +23,9 @@ V1.1 and onward uses Built-in ColumnUI Playlist View.
 #### Optional
 
 - [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
-- [OpenLyrics](https://github.com/jacquesh/foo_openlyrics)
-- [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum))
-- UI Hacks
-
+- [OpenLyrics](https://github.com/jacquesh/foo_openlyrics) `not ready for v2`
+- [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum)) `not ready for v2`
+- UI Hacks`not ready for v2`
 
 ## Installation  
 
@@ -41,7 +41,7 @@ V1.1 and onward uses Built-in ColumnUI Playlist View.
     <img src="../main/etc/SMP-packman.png" width="320">
 - Import Columns UI configuration on ``preferences > Columns UI > Main`` and choose the ``.fcl`` file.  
 
-## Troubleshooting  
+## Troubleshooting
 
 - Portable version of Foobar2000 is recommended.
 - May not work well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
@@ -55,6 +55,11 @@ V1.1 and onward uses Built-in ColumnUI Playlist View.
 *warning : changing the maximum window too low will crash the Spider monkey JS Panel.*
 
 ## Changelog
+
+- Atheros `v1.2`
+  - Columns UI `v1.?.?`
+  - Album List Panel `v1.0.0`
+  - Spider Monkey Panel `v.1.6.?`
 
 - Atheros `v 1.1`
   - Columns UI `v 1.7.0`  
