@@ -1,0 +1,121 @@
+$set_font(Consolas Bold,13,)
+
+
+//######## TITLE
+$puts(text,$if2(%title%,$if2(%fy_channel_title%,%filename%)))
+$rgb(128,192,255)🎵 $rgb(255,255,255)
+
+//##Main Argument
+$puts(length,28)$puts(grace,5)
+
+//##Get length of text, remainder of it minus length, and add grace
+$puts(textlen,$len($get(text)))$puts(graces,$mul($get(grace),2))
+$puts(remain,$sub($get(textlen),$get(length)))
+$puts(remain2,$add($get(remain),$get(graces)))
+
+//##ticker using seconds modulused by length of text with grace
+$puts(time,$mod(%_time_elapsed_seconds%,$get(remain2)))
+$puts(time2,$sub($get(time),$get(grace)))
+
+//##longer title deserves spanking
+$ifgreater($get(textlen),$mul($get(length),3),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),3),3))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,3),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),3))),
+$ifgreater($get(textlen),$mul($get(length),2),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),2),2))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,2),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),2))),))
+
+//##grace set
+$puts(timemin,$ifgreater($get(time2),0,$get(time2),0))
+$puts(timemax,$ifgreater($get(timemin),$get(remain),$get(remain),$get(timemin)))$puts(timefinal,$add($get(timemax),$get(length)))
+$puts(final,$right($left($get(text),$get(timefinal)),$get(length)))
+$get(final)$crlf()
+
+
+//######## ARTIST SOURCE
+$if($stricmp($left(%fy_channel_url%,22),'https://soundcloud.com'),
+$rgb(255,144,80)☁ SoundCloud ,)
+$if($stricmp($left(%fy_channel_url%,23),'https://www.youtube.com'),
+$rgb(255,80,80)▶ YouTube ,)
+[$puts(text,$if([%fy_channel_url%],[%fy_channel_title%],[%artist%]))
+$if(%fy_channel_url%,$rgb(255,128,192)🙍 $rgb(255,255,255),
+$if(%artist%,$rgb(255,128,192)🎙 $rgb(255,255,255),))]
+$puts(textlen,$len($get(text)))$puts(graces,$mul($get(grace),2))
+$puts(remain,$sub($get(textlen),$get(length)))
+$puts(remain2,$add($get(remain),$get(graces)))
+$puts(time,$mod(%_time_elapsed_seconds%,$get(remain2)))
+$puts(time2,$sub($get(time),$get(grace)))
+$ifgreater($get(textlen),$mul($get(length),3),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),3),3))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,3),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),3))),
+$ifgreater($get(textlen),$mul($get(length),2),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),2),2))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,2),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),2))),))
+$puts(timemin,$ifgreater($get(time2),0,$get(time2),0))
+$puts(timemax,$ifgreater($get(timemin),$get(remain),$get(remain),$get(timemin)))$puts(timefinal,$add($get(timemax),$get(length)))
+[$puts(final,$right($left($get(text),$get(timefinal)),$get(length)))
+$get(final)$crlf()]
+
+
+//######## ALBUM
+$puts(text,$if2(%album%,$if2(%fy_channel_url%,%directory%)))
+
+$if(%album%,$rgb(128,256,192)💿 $rgb(256,256,256),
+$if(%fy_channel_url%,$rgb(160,160,255)🌐 ,
+$rgb(128,255,192)📂 Folder $rgb(256,256,256)$puts(length,24)))
+
+$puts(textlen,$len($get(text)))$puts(graces,$mul($get(grace),2))
+$puts(remain,$sub($get(textlen),$get(length)))
+$puts(remain2,$add($get(remain),$get(graces)))
+$puts(time,$mod(%_time_elapsed_seconds%,$get(remain2)))
+$puts(time2,$sub($get(time),$get(grace)))
+$ifgreater($get(textlen),$mul($get(length),5),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),5),4))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,5),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),5))),
+$ifgreater($get(textlen),$mul($get(length),4),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),3),3))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,3),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),3))),
+$ifgreater($get(textlen),$mul($get(length),2),
+$puts(remain2,$add($get(remain),$mul($mul($get(graces)),2),2))
+$puts(time,$mod($mul(%_time_elapsed_seconds%,2),$get(remain2)))
+$puts(time2,$sub($get(time),$mul($get(grace),2))),)))
+$puts(timemin,$ifgreater($get(time2),0,$get(time2),0))
+$puts(timemax,$ifgreater($get(timemin),$get(remain),$get(remain),$get(timemin)))$puts(timefinal,$add($get(timemax),$get(length)))
+$puts(final,$right($left($get(text),$get(timefinal)),$get(length)))
+$get(final)$crlf()
+
+
+//##########SEEKBAR
+$set_font(Consolas Bold,9,)
+//$get(time2) $get(timemin) $get(remain) $get(remain2) $get(timemax) $crlf()
+'[' $if(%isplaying%,%playback_time%,--:--) $if(%_time_total_seconds%,
+$ifgreater(%_time_elapsed_seconds%,%_time_total_seconds%,
+$rgb(256,128,128)$progress2(%_time_elapsed_seconds%,$mul(%_time_total_seconds%,10),$get(length),▓,$rgb(256,256,128)▓)
+,$rgb(256,256,128)$progress2(%_time_elapsed_seconds%,%_time_total_seconds%,$get(length),▓,_)) , / )$rgb(256,256,256)
+$if(%length%,[%length%],--:--) ']'
+
+
+//######## DATE AND TRACKS
+$rgb(128,128,128)[$crlf()👁 $ifgreater(%fy_view_count%,1000000,
+$insert($div(%fy_view_count%,10000),'.',$sub($len($div(%fy_view_count%,10000)),2))M,$ifgreater(%fy_view_count%,1000,
+$insert($div(%fy_view_count%,10),'.',$sub($len($div(%fy_view_count%,10)),2))K,%fy_view_count%))]
+[　・　❤ $ifgreater(%fy_like_count%,1000000,
+$insert($div(%fy_like_count%,10000),'.',$sub($len($div(%fy_like_count%,10000)),2))M,$ifgreater(%fy_like_count%,1000,
+$insert($div(%fy_like_count%,10),'.',$sub($len($div(%fy_like_count%,10)),2))K,%fy_like_count%))]
+
+[$crlf()[📆 $left(%date%,4) ][TRACK %tracknumber%[ / %totaltracks%]]
+$ifgreater(%totaldiscs%,1,　・　DISC %discnumber%[ / %totaldiscs%],)]
+
+
+//#########METADATA
+$crlf()[$if($strcmp(%__encoding%,lossy),%bitrate% KBPS,
+%__bitspersample% BIT)　・　]
+[$ifgreater($mod(%samplerate%,1000),0,$insert($div(%samplerate%,
+100),'.',$sub($len($div(%samplerate%,100)),1)) KHZ,$div(%samplerate%,1000) KHZ)][　・　%filesize_natural%][　・　$upper(%codec_long%)]
+[　・　$upper(%channels%)]
