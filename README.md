@@ -1,4 +1,5 @@
 # Atheros  
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/29189359/173229414-33e5bf10-d047-43c5-afa6-99d2b681f0b5.png" width="360">
 <img src="https://user-images.githubusercontent.com/29189359/173229700-826c8d8a-9f00-4e71-9963-e3f7c064e9a3.png" width="360">
@@ -6,8 +7,9 @@
 
 <p align=center> Foobar Simple Compact ColumnUI Theme </p>
 
-This is just a self-made Foobar2000 Theme.
+This is just a self-homemade Foobar2000 Theme.
 V1.1 and onward uses Built-in ColumnUI Playlist View.
+Compatible with v2 32-Bit.
 
 ## Prerequisite
 
@@ -15,7 +17,7 @@ V1.1 and onward uses Built-in ColumnUI Playlist View.
 
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
 - [Album List Panel (Columns UI panel version of album list)](https://github.com/reupen/album_list_panel "foo_uie_albumlist")
-- [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel") `not ready for v2`
+- [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel") `not ready for v2 x64`
   - [Library Tree](https://github.com/Wil-B/Library-Tree)
 - ~~[EsPlaylist (v0.1.3.9(2011/05/28))](http://foo2k.chottu.net/ "outdated")~~
 - ~~Panel Stack Splitter~~
@@ -24,8 +26,8 @@ V1.1 and onward uses Built-in ColumnUI Playlist View.
 
 - [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
 - [OpenLyrics](https://github.com/jacquesh/foo_openlyrics) `not ready for v2`
-- [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum)) `not ready for v2`
-- UI Hacks`not ready for v2`
+- [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum)) `not ready for v2 x64`
+- UI Hacks`not ready for v2 x64`
 
 ## Installation  
 
