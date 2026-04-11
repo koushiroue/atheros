@@ -5,24 +5,32 @@
 <img src="https://user-images.githubusercontent.com/29189359/173229700-826c8d8a-9f00-4e71-9963-e3f7c064e9a3.png" width="360">
 </p>
 
+![alt text](/etc/new-preview-dark.png)
 <p align=center> Foobar Simple Compact ColumnUI Theme </p>
 
 This is just a self-homemade Foobar2000 Theme.
 V1.1 and onward uses Built-in ColumnUI Playlist View.
-Compatible with v2 32-Bit.
+~~ Compatible with v2 32-Bit.~~ 
+Only compatible with Version 2.x 64-Bit.
 
 ## Prerequisite
 
+### Foobar2000 Version Requirement
+
+Foobar2000 Version 2.25 Stable or Latest 64-Bit is Required
+
 ### Foobar Component  
 
+
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
-- [Album List Panel (Columns UI panel version of album list)](https://github.com/reupen/album_list_panel "foo_uie_albumlist")
-- [Spider Monkey Panel >= (1.3.0)](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel") `not ready for v2 x64`
-  - [Library Tree](https://github.com/Wil-B/Library-Tree)
-- [Waveform Minibar](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
-- [OpenLyrics](https://github.com/jacquesh/foo_openlyrics)
-- [Musical Spectrum](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Musical_Spectrum_(foo_musical_spectrum)) `not ready for v2 x64`
-- UI Hacks `not ready for v2 x64`
+- [~~Spider Monkey Panel >= (1.3.0)(TheQwertiest)~~](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel") `Unmaintained`
+  - [Spider Monkey Panel (marc2k3)](https://github.com/marc2k3/spider-monkey-panel-x64)
+- [~~Library Tree (Wil-B)~~](https://github.com/Wil-B/Library-Tree) `Unmaintained`
+    - [Library Tree (Regorxxxx)](https://github.com/regorxxx/Library-Tree-SMP)
+- [(Optional) Album List Panel](https://github.com/reupen/album_list_panel "foo_uie_albumlist") `use Library Tree for Album / Directory listing, otherwise use this component.`
+
+- [Waveform Minibar Mod](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Waveform_Minibar_(mod)_(foo_wave_minibar_mod) "foo_wave_minibar_mod")
+
 
 ## Installation  
 
