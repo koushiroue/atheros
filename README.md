@@ -3,15 +3,15 @@
 ## Version 1
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/29189359/173229414-33e5bf10-d047-43c5-afa6-99d2b681f0b5.png" width="360">
-<img src="https://user-images.githubusercontent.com/29189359/173229700-826c8d8a-9f00-4e71-9963-e3f7c064e9a3.png" width="360">
+<img src="https://user-images.githubusercontent.com/29189359/173229414-33e5bf10-d047-43c5-afa6-99d2b681f0b5.png" width="320">
+<img src="https://user-images.githubusercontent.com/29189359/173229700-826c8d8a-9f00-4e71-9963-e3f7c064e9a3.png" width="320">
 </p>
 
 ## Version 2
 
 <p align="center">
-<img src="/etc/new-preview-dark.png" width="360">
-<img src="/etc/new-preview-light.png" width="360">
+<img src="/etc/new-preview-dark.png" width="300">
+<img src="/etc/new-preview-light.png" width="300">
 </p>
 
 <p align=center> Foobar Simple Compact ColumnUI Theme </p>
