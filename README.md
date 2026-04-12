@@ -17,8 +17,8 @@
 <p align=center> Foobar Simple Compact ColumnUI Theme </p>
 
 This is just a self-homemade Foobar2000 Theme.
-V1.1 and onward uses Built-in ColumnUI Playlist View.
-~~ Compatible with v2 32-Bit.~~ 
+V1.1 and onward uses Built-in ColumnUI Playlist View.  
+ 
 Only compatible with Version 2.x 64-Bit.
 
 ## Prerequisite
