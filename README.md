@@ -56,16 +56,10 @@ Foobar2000 Version 2.25 Stable or Latest 64-Bit is Required
 
 ## Troubleshooting
 
-- Portable version of Foobar2000 is recommended.
-- May not work well on HiDPI Display scale 125% and 150%, may require changing hidpi setting on foobar executable properties.  
-![alt text](../main/etc/hidpi.png "Foobar.exe Properties > Compatibility > Change HiDPI Settings")  
+- Portable version of Foobar2000 is recommended.  
 
-*note : The skin might not fit in 150% display scale for 1080p resolution or lower.*  
 
-- Alternatively you can refer the "minimum" window size here  
-![alt text](../main/etc/window.png "Preference > Display > Main Window (UI Hacks)")
-
-*warning : changing the maximum window too low will crash the Spider monkey JS Panel.*
+*warning : adjusting the maximum window too small will crash the Spider monkey JS Panel.*
 
 ## Changelog
 
