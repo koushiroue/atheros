@@ -5,7 +5,13 @@
 <img src="https://user-images.githubusercontent.com/29189359/173229700-826c8d8a-9f00-4e71-9963-e3f7c064e9a3.png" width="360">
 </p>
 
-![alt text](/etc/new-preview-dark.png)
+
+<img src="./etc/new-preview-dark.png" width="360">
+
+<p align="center">
+<img src="/etc/new-preview-dark.png" width="360">
+</p>
+
 <p align=center> Foobar Simple Compact ColumnUI Theme </p>
 
 This is just a self-homemade Foobar2000 Theme.
