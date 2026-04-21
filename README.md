@@ -26,8 +26,13 @@ Foobar2000 Version 2.25 Stable or Latest 64-Bit is Required
 
 ### Foobar Component  
 - [Columns UI >= (1.6.0)](https://github.com/reupen/columns_ui "foo_ui_columns")
+
+### Choose one of the JavaScript host component :-
 - [~~Spider Monkey Panel >= (1.3.0)(TheQwertiest)~~](https://github.com/TheQwertiest/foo_spider_monkey_panel "foo_spider_monkey_panel") `Unmaintained`
   - [Spider Monkey Panel (marc2k3)](https://github.com/marc2k3/spider-monkey-panel-x64)
+
+- [JSplitter](https://hydrogenaud.io/index.php/topic,126743.0.html)
+---
 - [~~Library Tree (Wil-B)~~](https://github.com/Wil-B/Library-Tree) `Unmaintained`
     - [Library Tree (Regorxxxx)](https://github.com/regorxxx/Library-Tree-SMP)
       - [Playback Statistics](https://www.foobar2000.org/components/view/foo_playcount)
