@@ -66,6 +66,9 @@ Foobar2000 Version 2.25 Stable or Latest 64-Bit is Required
 
 ## Changelog
 
+
+
+
 - Atheros `v1.2`
   - Columns UI `v1.?.?`
   - Album List Panel `v1.0.0`
